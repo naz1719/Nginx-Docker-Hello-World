@@ -8,6 +8,11 @@ The images are uploaded to Docker Hub -- https://hub.docker.com/r/dockerbogo/doc
 
 How to run:
 ```
+
+# docker build --tag=nkhimin/nginx_hello_world:v1 . --file=Dockerfile
+# docker run -p 8080:80 -d nkhimin/nginx_hello_world:v1
+
+else
 $ docker run -p 8080:80 -d dockerbogo/docker-nginx-hello-world
 ```
 
